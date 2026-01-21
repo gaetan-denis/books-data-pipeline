@@ -12,7 +12,7 @@ Filter a CSV of books published after 1950 and visualize the results in a bar ch
 - Read `books.csv` containing **book titles, authors, and publication years**.
 - Filter books published **after 1950**.
 - Save the filtered data to `books_after_1950.csv`.
-- Generate a bar chart (`books_after_1950.png`) showing the publication years.
+- Generate a bar chart (`books_post_1950.png`) showing the publication years.
 - Years displayed **above each bar** for easy reading.
 - **Demonstrates a simple data workflow**: read → process → visualize → save.
 
@@ -70,7 +70,7 @@ Neuromancer,William Gibson,1984
 
 Bar chart output (books_after_1950.png):
 
-![Books chart](books_after_1950.png)
+![Books chart](books_post_1950.png)
 
 - Each bar = a book
 - Height = publication year
